@@ -1,0 +1,12 @@
+numero_correto = 7  # número fixo definido no código
+
+while True:
+    palpite = int(input("Adivinhe o número: "))
+    
+    if palpite == numero_correto:
+        print("Parabéns! Você acertou.")
+        break
+    elif palpite < numero_correto:
+        print("O número correto é maior.")
+    else:
+        print("O número correto é menor.")
